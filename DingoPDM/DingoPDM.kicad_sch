@@ -1049,50 +1049,6 @@
 			)
 		)
 	)
-	(global_label "USB_VBUS"
-		(shape input)
-		(at 117.475 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "37d1ba06-198f-4ffb-9bfd-ba7e24114d06")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.4678 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_D-"
-		(shape bidirectional)
-		(at 117.475 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "45a47cfe-0d45-4a14-b4aa-768a51ebcb3f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.5715 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PF_DSEL3_4"
 		(shape output)
 		(at 160.655 91.44 0)
@@ -1150,28 +1106,6 @@
 		(uuid "5732354e-86f5-4d90-b4ec-501908b126c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.2319 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_D+"
-		(shape bidirectional)
-		(at 117.475 100.965 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6a534f6e-6661-4b12-b596-456b46282ade")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.5715 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "dingoPDM:DRTLogo"
+		(property "Footprint" "DRTLogo:DRTLogo"
 			(at 252.73 157.48 0)
 			(effects
 				(font
@@ -2262,7 +2196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "dingoPDM:DingoFaceNoFill"
+		(property "Footprint" "DRTLogo:DingoFaceNoFill"
 			(at 252.73 164.465 0)
 			(effects
 				(font
@@ -2675,7 +2609,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "00000000-0000-0000-0000-00005f54b02a")
-		(property "Sheetname" "HighCurrentDrivers"
+		(property "Sheetname" "MedCurrentDrivers-added"
 			(at 231.14 18.9734 0)
 			(effects
 				(font
